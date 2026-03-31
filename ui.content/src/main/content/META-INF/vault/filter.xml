@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aemreactspa" mode="merge"/>
+    <filter root="/content/aemreactspa" mode="merge"/>
+    <filter root="/content/dam/aemreactspa" mode="merge">
+        <exclude pattern="/content/dam/aemreactspa(/.*)?"/>
+        <include pattern="/content/dam/aemreactspa/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aemreactspa/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aemreactspa" mode="merge"/>
+</workspaceFilter>
