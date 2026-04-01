@@ -14,7 +14,7 @@ const Text = (props) => {
     <>
     <Card>
       <CardContent>
-        <Typography variant="h5" className="font-bold text-red-600 underline mb-4">
+        <Typography variant="h5" className="font-bold text-yellow-600 underline mb-4">
           {props.text || "Default Text"}
         </Typography>
 
